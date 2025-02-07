@@ -24,11 +24,11 @@ function App() {
       <h2><em>Exponents</em></h2>
 
       <div className="container">
-        <ExponentTwo count={count} exponent = {2}  />
-        <ExponentThree count={count} exponent = {3} />
-        <ExponentFour count={count} exponent = {4} />
-        <ExponentFive count={count} exponent = {5} />
-        <ExponentSix count={count} exponent = {6} />
+        <Exponent count={count} exponent = {2}  />
+        <Exponent count={count} exponent = {3} />
+        <Exponent count={count} exponent = {4} />
+        <Exponent count={count} exponent = {5} />
+        <Exponent count={count} exponent = {6} />
       </div>
     </div>
   );
